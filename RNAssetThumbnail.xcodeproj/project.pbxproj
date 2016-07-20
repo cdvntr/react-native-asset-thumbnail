@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33185C31D3F7D4800672A8F /* RNAssetThumbnail.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33185C21D3F7D4800672A8F /* RNAssetThumbnail.h */; };
+		C33185C51D3F7D4800672A8F /* RNAssetThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = C33185C41D3F7D4800672A8F /* RNAssetThumbnail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C33185BD1D3F7D4800672A8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C33185C31D3F7D4800672A8F /* RNAssetThumbnail.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C33185BF1D3F7D4800672A8F /* libRNAssetThumbnail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAssetThumbnail.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33185C21D3F7D4800672A8F /* RNAssetThumbnail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAssetThumbnail.h; sourceTree = "<group>"; };
+		C33185C41D3F7D4800672A8F /* RNAssetThumbnail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAssetThumbnail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33185BC1D3F7D4800672A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33185B61D3F7D4800672A8F = {
+			isa = PBXGroup;
+			children = (
+				C33185C11D3F7D4800672A8F /* RNAssetThumbnail */,
+				C33185C01D3F7D4800672A8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33185C01D3F7D4800672A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33185BF1D3F7D4800672A8F /* libRNAssetThumbnail.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33185C11D3F7D4800672A8F /* RNAssetThumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				C33185C21D3F7D4800672A8F /* RNAssetThumbnail.h */,
+				C33185C41D3F7D4800672A8F /* RNAssetThumbnail.m */,
+			);
+			path = RNAssetThumbnail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33185BE1D3F7D4800672A8F /* RNAssetThumbnail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33185C81D3F7D4800672A8F /* Build configuration list for PBXNativeTarget "RNAssetThumbnail" */;
+			buildPhases = (
+				C33185BB1D3F7D4800672A8F /* Sources */,
+				C33185BC1D3F7D4800672A8F /* Frameworks */,
+				C33185BD1D3F7D4800672A8F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAssetThumbnail;
+			productName = RNAssetThumbnail;
+			productReference = C33185BF1D3F7D4800672A8F /* libRNAssetThumbnail.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33185B71D3F7D4800672A8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Codeventure;
+				TargetAttributes = {
+					C33185BE1D3F7D4800672A8F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C33185BA1D3F7D4800672A8F /* Build configuration list for PBXProject "RNAssetThumbnail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C33185B61D3F7D4800672A8F;
+			productRefGroup = C33185C01D3F7D4800672A8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33185BE1D3F7D4800672A8F /* RNAssetThumbnail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33185BB1D3F7D4800672A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33185C51D3F7D4800672A8F /* RNAssetThumbnail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C33185C61D3F7D4800672A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C33185C71D3F7D4800672A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33185C91D3F7D4800672A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C33185CA1D3F7D4800672A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33185BA1D3F7D4800672A8F /* Build configuration list for PBXProject "RNAssetThumbnail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33185C61D3F7D4800672A8F /* Debug */,
+				C33185C71D3F7D4800672A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33185C81D3F7D4800672A8F /* Build configuration list for PBXNativeTarget "RNAssetThumbnail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33185C91D3F7D4800672A8F /* Debug */,
+				C33185CA1D3F7D4800672A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33185B71D3F7D4800672A8F /* Project object */;
+}
