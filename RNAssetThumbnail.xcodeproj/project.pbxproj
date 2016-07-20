@@ -45,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				C33185C11D3F7D4800672A8F /* RNAssetThumbnail */,
+				C33185CB1D3F7DB900672A8F /* Libraries */,
 				C33185C01D3F7D4800672A8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +65,13 @@
 				C33185C41D3F7D4800672A8F /* RNAssetThumbnail.m */,
 			);
 			path = RNAssetThumbnail;
+			sourceTree = "<group>";
+		};
+		C33185CB1D3F7DB900672A8F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
