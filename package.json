@@ -1,6 +1,6 @@
 {
   "name": "react-native-asset-thumbnail",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Native module for generating thumbnails with asset uri",
   "main": "RNAssetThumbnail.js",
   "repository": {
