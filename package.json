@@ -1,0 +1,23 @@
+{
+  "name": "react-native-asset-thumbnail",
+  "version": "1.0.0",
+  "description": "Native module for generating thumbnails with asset uri",
+  "main": "RNAssetThumbnail.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdvntr/react-native-asset-thumbnail.git"
+  },
+  "keywords": [
+    "react-native",
+    "thumbnail",
+    "asset",
+    "video",
+    "image"
+  ],
+  "author": "Codeventure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdvntr/react-native-asset-thumbnail/issues"
+  },
+  "homepage": "https://github.com/cdvntr/react-native-asset-thumbnail#readme"
+}
