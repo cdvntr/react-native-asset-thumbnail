@@ -34,11 +34,13 @@ RCT_EXPORT_METHOD(generateThumbnail:(NSURL *)filepath width:(NSInteger)width hei
      contentMode:PHImageContentModeAspectFill
      options:option
      resultHandler:^(UIImage *result, NSDictionary *info) {
-         NSData *data = UIImagePNGRepresentation([self imageWithImage:result scaledToSize:CGSizeMake(70, 70)]);
+         NSData *data = UIImagePNGRepresentation([self imageWithImage:result scaledToSize:CGSizeMake(width, height)]);
          NSString *base = [data base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
+         NSString *str = @"data:image/jpg;base64,";
+         str = [str stringByAppendingString:base];
          
-         if(base) {
-             resolve(base);
+         if(str) {
+             resolve(str);
          } else {
              reject(@"Error", nil, nil);
          }
