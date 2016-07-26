@@ -3,7 +3,7 @@ Native module for generating thumbnails with asset uri (IOS Only)
 
 *NOTE: This module was built when we weren't able to show video thumbnails which we fetched from the cameraRoll, and with the asset uri returned from the great [react-native-camera](https://github.com/lwansbrough/react-native-camera) module when we recorderd videos.
 
-### Installation
+## Installation
 
 1. `npm install react-native-asset-thumbnail --save`
 2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
@@ -78,3 +78,6 @@ const styles = StyleSheet.create({
 
 AppRegistry.registerComponent('Example', () => Example);
 ```
+## License
+
+MIT © [codeventure](http://codeventure.com.tr)
